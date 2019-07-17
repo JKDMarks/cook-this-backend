@@ -1,24 +1,23 @@
-# README
+# <img src="https://i.imgur.com/FtclHY5.png" height="30" width="30" alt="chef hat"> Cook This
+A website for scraping recipes and cooking along with them.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**[(Link to Frontend)](https://github.com/Jeffrey-Marks/cook-this-frontend)**
 
-Things you may want to cover:
+## Inspiration
 
-* Ruby version
+I love cooking and I love adding new favorite recipes to my collection. This is a place to store all of those favorites and also cook along with them.
 
-* System dependencies
+## Features
 
-* Configuration
+Given a recipe URL, creates an ActiveRecord Recipe instance and adds each ingredient and step as an associate (Recipe has_many Ingredients, Steps).
 
-* Database creation
+## Built With
 
-* Database initialization
+* [Ruby on Rails](https://rubyonrails.org/) - Used as a RESTful API built on top of a SQL database
+* [PostgreSQL](https://www.postgresql.org/) - Database
+* [BCrypt](https://github.com/codahale/bcrypt-ruby) - Password hashing
+* [JWT](https://github.com/jwt/ruby-jwt) - JSON Web Token OAuth
 
-* How to run the test suite
+## Notes
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Secondary name is `this.cook()`.
